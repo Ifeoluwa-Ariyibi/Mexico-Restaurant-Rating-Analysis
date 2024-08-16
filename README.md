@@ -29,7 +29,7 @@ This restaurant rating dataset includes information about restaurants in Mexico.
 
 - Data Preparation
 
-I started by removing the black rows and columuns and I renamed the columns such city, state and country of consumer to Consumer City,	Consume State, and	Consume Country. This helped to diffreciate the city, state and country for both consumers and restaurants. After doing this, imported the data into PowerBi where I use DAX to create measures such as aggregating ratings (average Overall_Rating, average Food_Rating, average Service_Rating) as shown below:
+I started by removing the blank rows and columuns and I renamed the columns such city, state and country of consumer to Consumer City,	Consume State, and	Consume Country. This helped to diffreciate the city, state and country for both consumers and restaurants. After doing this, imported the data into PowerBi where I use DAX to create measures such as aggregating ratings (average Overall_Rating, average Food_Rating, average Service_Rating) as shown below:
 
 Average Overall_Rating = AVERAGE('Consumer_Preferences'[Overall_Rating])
 Average Food_Rating = AVERAGE('Consumer_Preferences'[Food_Rating])
